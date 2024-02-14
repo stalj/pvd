@@ -9,23 +9,16 @@
 
 1. A Jupyter notebook is a web-based interactive environment for creating and sharing documents that contain code, text, and visualizations. It is a powerful tool for data science, machine learning, and other technical fields.
 
-1.	Link do wideo
-
-1.	Rysunek??
-
-1.	Komórka z kodem
-
-1.	Komórka z tekstem (markdown)
-
-1.	Output – print lub nazwa
-
-1.	Input – input function
+1. A notebook consists of cells of various types. You can enter text into a text cell that is used to describe information. In a cell you can run, you can enter instructions in a programming language such as Python. After running such a cell, the result is usually displayed below.
 
 
 ### First Notebook
 
 1. Open the notebook my-first-notebook.ipynb. 
-1. Read the contents of the notebook and complete all taskss.
+
+1. Read the contents of the notebook and complete all tasks.
+
+1. Create your first notebook called bmi.ipynb. Enter the person's height in cm and weight in kg using the keyboard. Then, calculate the BMI (Body Mass Index). Display height, weight and calculated BMI.
 
 
 
@@ -87,9 +80,8 @@
  
     Using Mockaroo (https://mockaroo.com), generate 20 rows of data with the given structure. Save the data in the companies.csv file. Then, create a companies.ipynb notebook, in which create a DataFrame, based on the data contained in the CSV file. Display the contents of the DataFrame. Calculate and display:
 
-    a. the total number of men working in companies
-
-    b. average number of women working in companies
+    * the total number of men working in companies
+    * average number of women working in companies
 
 
 
@@ -109,7 +101,6 @@
 1.	Open the notebook rows-and-columns.ipynb. Learn how to access rows and columns in a DataFrame. Then, complete all tasks in the notebook.
 
 1. ZADANIA
-1. ZADANIA
 
 ### Data Export
 
@@ -117,10 +108,4 @@
 
 1. Open the notebook data-to-file.ipynb. Learn how to save a DataFrame to a file. Then, complete all tasks in the notebook.
 
-1. to_csv
-
-1. to_json
-
-1. to_html
-
-1.	
+1. ZADANIA
