@@ -33,7 +33,10 @@
 
 1. To use Pandas, first you need to download and install this library. Then, to use it in your notebook, import the library using the statement:
 
-    `import pandas as pd`
+    ```python
+    import pandas as pd
+    ```
+
 
 
 ### Data Model
