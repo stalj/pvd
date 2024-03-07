@@ -7,9 +7,12 @@
 
 ### Introduction
 
-1. A Jupyter notebook is a web-based interactive environment for creating and sharing documents that contain code, text, and visualizations. It is a powerful tool for data science, machine learning, and other technical fields.
+1. A Jupyter notebook is a web-based interactive environment for creating and sharing documents that contain code, text, and visualizations. It is a powerful tool for data analysis, data science, machine learning, and other technical fields.
 
-1. A notebook consists of cells of various types. You can enter text into a text cell that is used to describe information. In a cell you can run, you can enter instructions in a programming language such as Python. After running such a cell, the result is usually displayed below.
+1. A notebook consists of cells of various types. You can enter text into a text cell that is used to describe information. In a cell you can enter and run instructions in a programming language such as Python. After running such a cell, the result is usually displayed below.
+
+1. A short introduction to Jupiter Notebook
+    (https://youtu.be/eJDxcR1V7Qg?feature=shared) 
 
 
 ### First Notebook
@@ -71,11 +74,20 @@
 
     <https://en.wikipedia.org/wiki/Krak%C3%B3w>
 
-    Create a Jupyter Notebook named krakow.ipynb. Then, in the notebook, create a Series containing information about the population of Krakow in the years 1985 to 2023. Display the contents of the Series along with the descriptive statistics.
+    Create a Jupyter Notebook named krakow.ipynb. Then, in the notebook, create a Series containing information about the population of Krakow in the years 1985 to 2023. Calculate and display:
+    
+    * the contents of the Series along with the descriptive statistics
+    * population in Krakow in 2005
+    * the average pupulation in Krakow between 1985 and 2023
+    * descriptive statistics
+
+
 
 ### DataFrame
 
 1.	Open the notebook my-first-dataframe.ipynb. Learn how to create DataFrame based on data collections. Then, complete all tasks in the notebook.
+
+1. The continents.csv file contains information about the area and population. Based on this data, create a DataFrame. Display a list of continents along with descriptive statistics.
 
 1. The CSV file contains information about the number of men and women employed in company departments.
 
@@ -103,7 +115,23 @@
 
 1.	Open the notebook rows-and-columns.ipynb. Learn how to access rows and columns in a DataFrame. Then, complete all tasks in the notebook.
 
-1. ZADANIA
+1. The universities.csv file contains information about some universities located in Krakow and Warsaw. Create a notebook universities.ipynb. In the notebook, create a data frame based on the CSV file. Then:
+
+    * display the content of the created data frame
+    * display the first 5 rows of data
+    * display the last 4 rows of data
+    * display the first 7 universities with the number of students, without the city column
+    * display the list of univerities in Warsaw along with the city and the number of students
+    * display only the list of univerities in Warsaw
+    * display only the last 3 universities in Krakow
+
+1. Find a CSV file on the Internet that contains at least 5 columns of data. Create a Jupiter notebook and import data from a CSV file. Then:
+    
+    * display all data content
+    * display the last two columns of data
+    * display the first, third and fifth rows of data
+
+
 
 ### Data Export
 
@@ -111,4 +139,12 @@
 
 1. Open the notebook data-to-file.ipynb. Learn how to save a DataFrame to a file. Then, complete all tasks in the notebook.
 
-1. ZADANIA
+1. Create a new notebook. Then, import the data contained in the file product_sales.csv. Finally:
+
+    * display the data content
+    * export data to an html document
+    * display the html document in a web browser
+    * export the first and the last column to a csv file
+    * display the csv document in a text editor
+    * export data related to the west region to an html file
+    * display the content of the html file in a web browser 
