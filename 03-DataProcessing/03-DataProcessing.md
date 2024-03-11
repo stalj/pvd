@@ -1,10 +1,13 @@
 # DATA PROCESSING
 
+
+
 ## Adding Columns
 
 1. Open the notebook extra-columns.ipynb. Learn how to add some extra columns to the existed DataFrame. Then, complete all tasks in the notebook.
 
 1. The continents.csv file contains data on the area and number of inhabitants of some continents. Create a notebook in which create a DataFrame with the data contained in the CSV file. Display the contents of the DataFrame. Then, add a column in which calculate the population density, i.e. the number of inhabitants per 1 km2. View the modified DataFrame.
+
 
 
 ## Data Sorting
@@ -31,7 +34,25 @@
 
 1. Open the notebook creating-queries.ipynb. Learn how to select data according to the specified criteria. Then, complete all tasks in the notebook.
 
-1. ZADANIE
+1. The CitiesInPoland.csv file contains a list of cities in Poland. Open the CSV file in a character editor and familiarize yourself with the data structure of the file. Notice that the data is separated by a semicolon. Find in the Pandas manual how to get data from a CSV file, separated by a semicolon.
+
+    Create a new notebook and read the contents of the CSV file. Then, display file contents. As you can see, due to the volume of the data, only the first and last few rows are displayed. Find out how to display all rows of data. 
+
+    Finally, complete each task in a **separate Code cell**.
+
+    * display the first 10 rows of data
+    * display all rows of data
+    * display last 8 rows of data with columns: City, Province, Population
+    * calculate and add population density to the data frame (add a new column)
+    * display first 5 rows with columns: City, Density
+    * sort cities alphabetically and display the first 10 cities
+    * display cities with at least half a million inhabitants (How many such cities are there in Poland?)   
+    * display 10 cities with the highest population
+    * display 10 cities with the least population
+    * display cities from the 'małopolskie' province
+    * display cities from the 'małopolskie' province and 'tarnowski' region
+    * display cities from the 'małopolskie' province and 'tarnowski' region, sorted by area, starting with the largest one
+
 
 
 
@@ -43,6 +64,17 @@
 
 1. ZADANIE
 
+
+
 ## Data Joining
 
-1. 
+1. To combine separate datasets, you can some powerful techniques available in pandas. One of them is the merge() function you can use anytime you want functionality similar to a database’s join operations.
+
+1. The pandas merge() function allows you to combine two DataFrames, based on common columns or indexes.
+
+    <https://realpython.com/pandas-merge-join-and-concat/>
+
+1. Open the notebook data-joining.ipynb. Learn how to join some DataFrames using the merge() function. Then, complete all tasks in the notebook.
+
+1. ZADANIE
+
