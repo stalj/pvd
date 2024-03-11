@@ -2,11 +2,13 @@
 
 
 
+
 ## Adding Columns
 
 1. Open the notebook extra-columns.ipynb. Learn how to add some extra columns to the existed DataFrame. Then, complete all tasks in the notebook.
 
 1. The continents.csv file contains data on the area and number of inhabitants of some continents. Create a notebook in which create a DataFrame with the data contained in the CSV file. Display the contents of the DataFrame. Then, add a column in which calculate the population density, i.e. the number of inhabitants per 1 km2. View the modified DataFrame.
+
 
 
 
@@ -26,6 +28,7 @@
 
 
 
+
 ## Creating Queries
 
 1. Data selection refers to the process of choosing specific data from a larger collection that are relevant to a particular purpose or analysis. It is a crucial step in various fields, including research, business intelligence, data science, and machine learning.
@@ -34,11 +37,12 @@
 
 1. Open the notebook creating-queries.ipynb. Learn how to select data according to the specified criteria. Then, complete all tasks in the notebook.
 
-1. The CitiesInPoland.csv file contains a list of cities in Poland. Open the CSV file in a character editor and familiarize yourself with the data structure of the file. Notice that the data is separated by a semicolon. Find in the Pandas manual how to get data from a CSV file, separated by a semicolon.
+1. The cities-in-poland.csv file contains a list of cities in Poland. Open the CSV file in a character editor and familiarize yourself with the data structure of the file. Notice that the data is separated by a semicolon. Find in the Pandas manual how to get data from a CSV file, separated by a semicolon.
 
     Create a new notebook and read the contents of the CSV file. Then, display file contents. As you can see, due to the volume of the data, only the first and last few rows are displayed. Find out how to display all rows of data. 
 
-    Finally, complete each task in a **separate Code cell**.
+    Finally, complete each task in a **separate Code cell**.\
+    Copy the command content into a text cell and then add a Code cell below with the solution to the problem.
 
     * display the first 10 rows of data
     * display all rows of data
@@ -56,13 +60,22 @@
 
 
 
+
 ## Data Grouping
 
 1. Data grouping enables you to apply aggregate functions like COUNT, SUM, AVG, MIN, MAX, etc., to groups of rows based on their values in specified columns. This allows you to summarize data and generate new values representing entire groups. For example, you can count the number of customers in each country, find the average order value for each product category, or identify the highest-grossing month for your online store.
 
 1. Open the notebook data-grouping.ipynb. Learn how to calculate aggregated values based on the specified criteria. Then, complete all tasks in the notebook.
 
-1. ZADANIE
+1. Calculate and display the total number of students studying in Warsaw and Krakow. The data is available in the universitites.csv file. Do your calculations in a separate notebook.
+
+1. The list of Polish cities is available in the cities-in-poland.csv file. In a separate notepad, calculate and display:
+
+    * the number of cities in each province
+    * the total number of inhabitants in each province
+    * the total number of inhabitants in each of the regions in the 'opolskie' province 
+    * the total number of inhabitants in each of the regions in the 'opolskie' province; sort the values in descending order
+
 
 
 
@@ -76,5 +89,13 @@
 
 1. Open the notebook data-joining.ipynb. Learn how to join some DataFrames using the merge() function. Then, complete all tasks in the notebook.
 
-1. ZADANIE
+1. The files krk-airlines.csv, krk-flights.csv and krk-passengers.csv contain data about flights from Krakow Airport. In a separate notebook, calculate and display:
+
+    * list including flight number and destination (two columns)
+    * flight list with the full name of the airline and the name of the aircraft
+    * a list of passengers on a flight to London sorted by surname
+    * a list of women flying to Paris ordered by surname
+    * number of passengers on the flight to Berlin
+    * number of men flying from Krakow
+    * number of passengers for each flight
 
