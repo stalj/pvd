@@ -4,7 +4,6 @@ Data visualization is the art of representing information and data graphically. 
 
 
 
-
 ## Creating Charts from Data Series
 
 1. To use Pandas for creating charts, first you need to download and install the matplotlib library:
@@ -13,41 +12,33 @@ Data visualization is the art of representing information and data graphically. 
     pip install matplotlib
     ```
 
-1. Open the notebook first-chart.ipynb. Learn how to create a chart in the pandas library. Then, complete all tasks in the notebook.
+1. Open the notebook series-chart.ipynb. Learn how to create a simple chart in the pandas library. Then, complete all tasks in the notebook.
 
-1. TASK in new notebook
+1. The list below contains the tennis players who have won the most Grand Slam tournaments. Create a new notebook and then a chart presenting the data from the table. Remember to include the title and description of the chart axis.
+
+    Player         | Titles
+    ---------------|-------
+    Novak Djokovic | 24
+    Rafael Nadal   | 22
+    Roger Federer  | 20
+    Pete Sampras   | 14
 
 
 
 ## Creating Charts from DataFrame
 
+1. Open the notebook dataframe-chart.ipynb. Learn how to create charts based on a data frame. Then, complete all tasks in the notebook.
 
+1. Create a new notebook. Then, based on the employees.csv file, create a bar chart presenting the average age of women and men (two bars).
 
+1. A histogram is a chart that plots the distribution of a numeric variable’s values as a series of bars. Each bar typically covers a range of numeric values called a bin or class; a bar’s height indicates the frequency of data points with a value within the corresponding bin.
 
-tworzenie prostego wykresu - dane źródłowe
-dataseries
-dataframe - wiele subwykresów
-plt.show()
+    <https://www.atlassian.com/data/charts/histogram-complete-guide>
 
+    In the previous notebook, create two histograms showing a salary distribution both for men and women. The data can be found in the employees.csv file. Place both charts in one drawing. Use a subplot.
 
-opisywanie wykresu - osie x i y, tytuł wykresu
+1. Create a new notebook. Then, based on the european-countries.csv file, create:
 
-
-wybór rodzaju wykresu
-df.plot(kind = 'scatter', x = 'Duration', y = 'Calories')
-liniowy - domyslny?
-scatter
-histogram - one column
-df["Duration"].plot(kind = 'hist')
-
-
-
-
-
-
-
-
-
-
-
+    * a bar chart with the population of Central European countries (sort the data by population)
+    * a pie chart presenting the percentage of the regions' area.
 
