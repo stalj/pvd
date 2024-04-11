@@ -65,15 +65,37 @@ Microsoft Power Query is a data connectivity and data preparation tool. It lets 
 
 <https://learn.microsoft.com/en-us/power-query/power-query-what-is-power-query>
 
-1. Familiarize yourself with the use of power query.
+1. Familiarize yourself with the use of power query:
+    * how to import csv file
+    * how to import data from a web page
+    * how to manipulate imported data 
+    * how to connect imported data with a spreadsheet 
+
 1. Using the medical-data.csv file, execute the commands below:
-    * 
-    * 
-    * ...
+    * import data from a csv file; in the power qiery editor, remove the first two columns (first and last names)
+    * import data from a csv file; in the power query editor, add a BMI column (calculate the BMI according to the person's height and wage)
+    * create a pie chart showing the number of people in each of the countries 
+    * create a histogram showing people's ages 
+    * create a histogram showing BMI values (too small, normal, too high)
 
 
 ## Tasks
 
-1. 
+1. The employees.csv file contains data about employees. Using Power Query, import the data into a spreadsheet. Then:
+    * display the sorted the data by salary, starting with the highest
+    * display employees from Poland, aged at least 50 years
+    * calculate the number of women younger than 50
 
-1. 
+1. Complete the above task but using Jupyter Notebook.
+
+1. The list of Polish cities is available in the cities-in-poland.csv file. Using Power Query, import the data. Then, create the following charts:
+    * the total number of inhabitants in each province
+    * the area of the largest city in each province
+
+1. Complete the above task but using Jupyter Notebook.
+
+1. The files krk-airlines.csv, krk-flights.csv and krk-passengers.csv contain data about flights from Krakow Airport. Using Power Query, import and merge the data. Then, create the following charts:
+    * the number of people traveling to London and Paris 
+    * the number of men and the number of women traveling on each airline
+
+1. Complete the above task but using Jupyter Notebook.
